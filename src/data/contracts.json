@@ -1,0 +1,24 @@
+[
+  {
+    "id": "contract001",
+    "bank": "BMP",
+    "cpf": "123.456.789-00",
+    "userId": "user123",
+    "name": "João da Silva",
+    "status": "Aprovado",
+    "availableBalance": 25000,
+    "riskScore": "Baixo",
+    "createdAt": "2023-05-15T10:30:00.000Z"
+  },
+  {
+    "id": "contract002",
+    "bank": "QI Tech",
+    "cpf": "987.654.321-00",
+    "userId": "user456",
+    "name": "Maria Santos",
+    "status": "Aprovado",
+    "availableBalance": 18000,
+    "riskScore": "Médio",
+    "createdAt": "2023-05-16T11:45:00.000Z"
+  }
+]

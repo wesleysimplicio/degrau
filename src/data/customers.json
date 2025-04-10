@@ -1,0 +1,26 @@
+[
+  {
+    "cpf": "123.456.789-00",
+    "name": "João da Silva",
+    "availableBalance": 25000,
+    "riskScore": "Baixo"
+  },
+  {
+    "cpf": "987.654.321-00",
+    "name": "Maria Santos",
+    "availableBalance": 18000,
+    "riskScore": "Médio"
+  },
+  {
+    "cpf": "456.789.123-00",
+    "name": "Pedro Oliveira",
+    "availableBalance": 30000,
+    "riskScore": "Baixo"
+  },
+  {
+    "cpf": "789.123.456-00",
+    "name": "Ana Costa",
+    "availableBalance": 15000,
+    "riskScore": "Alto"
+  }
+]

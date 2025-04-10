@@ -1,53 +1,50 @@
-import pendingUsers from '../mocks/pendingUsers.json';
-import dashboardSummary from '../mocks/dashboardSummary.json';
-import metrics from '../mocks/metrics.json';
-import chartData from '../mocks/chartData.json';
-import recentActivity from '../mocks/recentActivity.json';
+import { fileService } from './fileService';
+import { dashboardService } from './dashboardService';
 import { PendingApprovalUser } from '../models/userModels';
 
 // Helper to simulate API delay
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-// Helper to make deep copies to avoid modifying the original mock data
-const deepCopy = <T>(data: T): T => JSON.parse(JSON.stringify(data));
-
 export const mockService = {
   // Dashboard summary
   getDashboardSummary: async () => {
     await delay(500);
-    return deepCopy(dashboardSummary);
+    return dashboardService.getDashboardSummary();
   },
 
-  // Metrics with optional filters (filters not implemented in mock)
+  // Metrics with optional filters
   getMetrics: async (_filters?: Record<string, any>) => {
     await delay(700);
-    return deepCopy(metrics);
+    return dashboardService.getMetrics(_filters);
   },
 
-  // Chart data with optional date range (filtering not implemented in mock)
+  // Chart data with optional date range
   getChartData: async (_startDate?: string, _endDate?: string) => {
     await delay(800);
-    return deepCopy(chartData);
+    return dashboardService.getChartData(_startDate, _endDate);
   },
 
   // Recent activity with limit
   getRecentActivity: async (limit = 5) => {
     await delay(600);
-    return deepCopy(recentActivity).slice(0, limit);
+    return dashboardService.getRecentActivity(limit);
   },
 
   // Pending approval users with optional filters
   getPendingApprovalUsers: async (_filters?: Record<string, any>) => {
     await delay(1000);
-    return deepCopy(pendingUsers);
+    const users = await fileService.readJsonFile<PendingApprovalUser[]>('users');
+    return users.filter(user => user.status === 'pending');
   },
 
   // Update user approval status
-  updateUserApprovalStatus: async (userId: string, status: 'approved' | 'rejected', reason?: string) => {
+  updateUserApprovalStatus: async (userId: string, status: 'approved' | 'rejected', _reason?: string) => {
     await delay(1200);
     
+    // Read users
+    const users = await fileService.readJsonFile<any[]>('users');
+    
     // Find and update the user in our local copy
-    const users = deepCopy(pendingUsers) as PendingApprovalUser[];
     const userIndex = users.findIndex(user => user.id === userId);
     
     if (userIndex === -1) {
@@ -56,8 +53,9 @@ export const mockService = {
     
     users[userIndex].status = status;
     
-    // In a real implementation, this would send the update to the server
-    // and return the updated user. For mock purposes, we'll just return the updated user.
+    // Save updated users
+    await fileService.writeJsonFile('users', users);
+    
     return users[userIndex];
   }
 };

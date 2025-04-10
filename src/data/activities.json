@@ -1,0 +1,32 @@
+[
+  {
+    "id": "act001",
+    "time": "2023-05-17T14:30:00.000Z",
+    "description": "Proposta #P005 foi criada",
+    "userId": "user123"
+  },
+  {
+    "id": "act002",
+    "time": "2023-05-17T13:15:00.000Z",
+    "description": "Proposta #P004 foi aprovada",
+    "userId": "user456"
+  },
+  {
+    "id": "act003",
+    "time": "2023-05-17T11:45:00.000Z",
+    "description": "Proposta #P003 foi atualizada",
+    "userId": "user456"
+  },
+  {
+    "id": "act004",
+    "time": "2023-05-17T10:20:00.000Z",
+    "description": "Proposta #P002 foi enviada para análise",
+    "userId": "user123"
+  },
+  {
+    "id": "act005",
+    "time": "2023-05-17T09:05:00.000Z",
+    "description": "Proposta #P001 foi aprovada",
+    "userId": "user123"
+  }
+]

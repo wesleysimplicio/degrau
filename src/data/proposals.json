@@ -1,0 +1,52 @@
+[
+  {
+    "id": "P001",
+    "customer": "João Silva",
+    "value": 15000,
+    "status": "Paga",
+    "date": "2023-05-15T10:30:00.000Z",
+    "userId": "user123",
+    "createdAt": "2023-05-15T10:30:00.000Z",
+    "updatedAt": "2023-05-15T10:30:00.000Z"
+  },
+  {
+    "id": "P002",
+    "customer": "Maria Santos",
+    "value": 12000,
+    "status": "Pendente",
+    "date": "2023-05-16T11:45:00.000Z",
+    "userId": "user123",
+    "createdAt": "2023-05-16T11:45:00.000Z",
+    "updatedAt": "2023-05-16T11:45:00.000Z"
+  },
+  {
+    "id": "P003",
+    "customer": "Pedro Oliveira",
+    "value": 18000,
+    "status": "Paga",
+    "date": "2023-05-15T14:20:00.000Z",
+    "userId": "user456",
+    "createdAt": "2023-05-15T14:20:00.000Z",
+    "updatedAt": "2023-05-15T14:20:00.000Z"
+  },
+  {
+    "id": "P004",
+    "customer": "Ana Costa",
+    "value": 9000,
+    "status": "Cancelada",
+    "date": "2023-05-14T09:15:00.000Z",
+    "userId": "user456",
+    "createdAt": "2023-05-14T09:15:00.000Z",
+    "updatedAt": "2023-05-14T09:15:00.000Z"
+  },
+  {
+    "id": "P005",
+    "customer": "Lucas Ferreira",
+    "value": 21000,
+    "status": "Pendente",
+    "date": "2023-05-17T16:30:00.000Z",
+    "userId": "user123",
+    "createdAt": "2023-05-17T16:30:00.000Z",
+    "updatedAt": "2023-05-17T16:30:00.000Z"
+  }
+]

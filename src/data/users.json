@@ -1,0 +1,42 @@
+[
+  {
+    "id": "admin123",
+    "fullName": "Admin User",
+    "email": "admin@example.com",
+    "cpf": "123.456.789-00",
+    "password": "$2a$10$XF9LxfKPJf9MhAw7jlxweuuQ3LDtS.cxz1YB/ZSjcn97IHYb2JvXC",
+    "role": "admin",
+    "status": "approved",
+    "createdAt": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "user123",
+    "fullName": "João Silva",
+    "email": "joao@example.com",
+    "cpf": "987.654.321-00",
+    "password": "$2a$10$XF9LxfKPJf9MhAw7jlxweuuQ3LDtS.cxz1YB/ZSjcn97IHYb2JvXC",
+    "role": "user",
+    "status": "approved",
+    "createdAt": "2023-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "user456",
+    "fullName": "Maria Santos",
+    "email": "maria@example.com",
+    "cpf": "123.789.456-00",
+    "password": "$2a$10$XF9LxfKPJf9MhAw7jlxweuuQ3LDtS.cxz1YB/ZSjcn97IHYb2JvXC",
+    "role": "user",
+    "status": "pending",
+    "createdAt": "2023-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "user789",
+    "fullName": "Pedro Oliveira",
+    "email": "pedro@example.com",
+    "cpf": "456.123.789-00",
+    "password": "$2a$10$XF9LxfKPJf9MhAw7jlxweuuQ3LDtS.cxz1YB/ZSjcn97IHYb2JvXC",
+    "role": "user",
+    "status": "pending",
+    "createdAt": "2023-01-04T00:00:00.000Z"
+  }
+]
