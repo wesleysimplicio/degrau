@@ -1,0 +1,39 @@
+{
+  "pendingUsers": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "email": "joao@example.com",
+      "cpf": "123.456.789-00",
+      "registrationDate": "2023-05-15"
+    },
+    {
+      "id": 2,
+      "name": "Maria Santos",
+      "email": "maria@example.com",
+      "cpf": "987.654.321-00",
+      "registrationDate": "2023-05-16"
+    },
+    {
+      "id": 3,
+      "name": "Pedro Oliveira",
+      "email": "pedro@example.com",
+      "cpf": "456.789.123-00",
+      "registrationDate": "2023-05-17"
+    },
+    {
+      "id": 4,
+      "name": "Ana Costa",
+      "email": "ana@example.com",
+      "cpf": "789.123.456-00",
+      "registrationDate": "2023-05-18"
+    },
+    {
+      "id": 5,
+      "name": "Carlos Pereira",
+      "email": "carlos@example.com",
+      "cpf": "321.654.987-00",
+      "registrationDate": "2023-05-19"
+    }
+  ]
+}

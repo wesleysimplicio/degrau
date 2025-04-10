@@ -1,0 +1,79 @@
+{
+  "indicators": {
+    "inputValue": 450000,
+    "paid": 320000,
+    "canceled": 30000
+  },
+  "proposals": [
+    {
+      "id": "P001",
+      "customer": "João Silva",
+      "value": 15000,
+      "status": "Paga",
+      "date": "2023-05-15"
+    },
+    {
+      "id": "P002",
+      "customer": "Maria Santos",
+      "value": 12000,
+      "status": "Pendente",
+      "date": "2023-05-16"
+    },
+    {
+      "id": "P003",
+      "customer": "Pedro Oliveira",
+      "value": 18000,
+      "status": "Paga",
+      "date": "2023-05-15"
+    },
+    {
+      "id": "P004",
+      "customer": "Ana Costa",
+      "value": 9000,
+      "status": "Cancelada",
+      "date": "2023-05-14"
+    },
+    {
+      "id": "P005",
+      "customer": "Lucas Ferreira",
+      "value": 21000,
+      "status": "Pendente",
+      "date": "2023-05-17"
+    },
+    {
+      "id": "P006",
+      "customer": "Juliana Mendes",
+      "value": 16500,
+      "status": "Paga",
+      "date": "2023-05-16"
+    },
+    {
+      "id": "P007",
+      "customer": "Roberto Alves",
+      "value": 13200,
+      "status": "Paga",
+      "date": "2023-05-15"
+    },
+    {
+      "id": "P008",
+      "customer": "Fernanda Lima",
+      "value": 8700,
+      "status": "Cancelada",
+      "date": "2023-05-13"
+    },
+    {
+      "id": "P009",
+      "customer": "Gabriel Santos",
+      "value": 22000,
+      "status": "Pendente",
+      "date": "2023-05-18"
+    },
+    {
+      "id": "P010",
+      "customer": "Isabela Martins",
+      "value": 19500,
+      "status": "Paga",
+      "date": "2023-05-17"
+    }
+  ]
+}

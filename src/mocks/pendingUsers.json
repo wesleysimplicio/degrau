@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "name": "João Silva",
+    "email": "joao.silva@autocar.com.br",
+    "dealershipName": "Auto Car Veículos",
+    "dealershipCNPJ": "12.345.678/0001-90",
+    "phone": "(11) 98765-4321",
+    "registrationDate": "2023-05-10T14:30:00.000Z",
+    "documentUrls": [
+      "/mocks/documents/doc1.pdf",
+      "/mocks/documents/doc2.pdf"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "2",
+    "name": "Maria Oliveira",
+    "email": "maria.oliveira@novaauto.com.br",
+    "dealershipName": "Nova Auto Multimarcas",
+    "dealershipCNPJ": "23.456.789/0001-01",
+    "phone": "(11) 91234-5678",
+    "registrationDate": "2023-05-12T10:15:00.000Z",
+    "documentUrls": [
+      "/mocks/documents/doc3.pdf"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "3",
+    "name": "Carlos Santos",
+    "email": "carlos.santos@premiumcar.com.br",
+    "dealershipName": "Premium Car Imports",
+    "dealershipCNPJ": "34.567.890/0001-12",
+    "phone": "(21) 99876-5432",
+    "registrationDate": "2023-05-15T09:45:00.000Z",
+    "documentUrls": [
+      "/mocks/documents/doc4.pdf",
+      "/mocks/documents/doc5.pdf",
+      "/mocks/documents/doc6.pdf"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "4",
+    "name": "Ana Pereira",
+    "email": "ana.pereira@automotivo.com.br",
+    "dealershipName": "Centro Automotivo Express",
+    "dealershipCNPJ": "45.678.901/0001-23",
+    "phone": "(31) 98765-1234",
+    "registrationDate": "2023-05-18T16:20:00.000Z",
+    "documentUrls": [
+      "/mocks/documents/doc7.pdf"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "5",
+    "name": "Pedro Ferreira",
+    "email": "pedro.ferreira@autoelite.com.br",
+    "dealershipName": "Auto Elite Seminovos",
+    "dealershipCNPJ": "56.789.012/0001-34",
+    "phone": "(41) 99988-7766",
+    "registrationDate": "2023-05-20T11:10:00.000Z",
+    "documentUrls": [
+      "/mocks/documents/doc8.pdf",
+      "/mocks/documents/doc9.pdf"
+    ],
+    "status": "rejected"
+  }
+]

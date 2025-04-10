@@ -1,0 +1,40 @@
+[
+  {
+    "id": "act1",
+    "type": "registration",
+    "user": "João Silva",
+    "dealership": "Auto Car Veículos",
+    "timestamp": "2023-05-20T14:30:00.000Z"
+  },
+  {
+    "id": "act2",
+    "type": "approval",
+    "user": "Ana Pereira",
+    "dealership": "Centro Automotivo Express",
+    "timestamp": "2023-05-19T11:15:00.000Z",
+    "approvedBy": "Admin User"
+  },
+  {
+    "id": "act3",
+    "type": "rejection",
+    "user": "Pedro Ferreira",
+    "dealership": "Auto Elite Seminovos",
+    "timestamp": "2023-05-18T09:45:00.000Z",
+    "rejectedBy": "Admin User",
+    "reason": "Documentação incompleta"
+  },
+  {
+    "id": "act4",
+    "type": "registration",
+    "user": "Maria Oliveira",
+    "dealership": "Nova Auto Multimarcas",
+    "timestamp": "2023-05-17T16:20:00.000Z"
+  },
+  {
+    "id": "act5",
+    "type": "registration",
+    "user": "Carlos Santos",
+    "dealership": "Premium Car Imports",
+    "timestamp": "2023-05-16T10:10:00.000Z"
+  }
+]

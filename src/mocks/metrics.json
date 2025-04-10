@@ -1,0 +1,30 @@
+[
+  {
+    "id": "users",
+    "name": "Usuários",
+    "value": 158,
+    "change": 12,
+    "changeType": "increase"
+  },
+  {
+    "id": "approvals",
+    "name": "Aprovações",
+    "value": 15,
+    "change": 5,
+    "changeType": "increase"
+  },
+  {
+    "id": "rejections",
+    "name": "Rejeições",
+    "value": 3,
+    "change": -2,
+    "changeType": "decrease"
+  },
+  {
+    "id": "dealerships",
+    "name": "Concessionárias",
+    "value": 42,
+    "change": 4,
+    "changeType": "increase"
+  }
+]

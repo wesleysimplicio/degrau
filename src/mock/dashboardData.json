@@ -1,0 +1,45 @@
+{
+  "metrics": {
+    "paid": 150000,
+    "target": 200000,
+    "offeredBalance": 300000,
+    "inputBalance": 250000,
+    "consumedBalance": 180000
+  },
+  "dailyStats": [
+    { "day": "01/05", "amount": 12000 },
+    { "day": "02/05", "amount": 15000 },
+    { "day": "03/05", "amount": 10000 },
+    { "day": "04/05", "amount": 18000 },
+    { "day": "05/05", "amount": 22000 },
+    { "day": "06/05", "amount": 19000 },
+    { "day": "07/05", "amount": 24000 }
+  ],
+  "operatorStats": [
+    { "name": "João", "amount": 45000 },
+    { "name": "Maria", "amount": 38000 },
+    { "name": "Pedro", "amount": 32000 },
+    { "name": "Ana", "amount": 35000 }
+  ],
+  "summaryData": {
+    "totalProposals": 120,
+    "approvedProposals": 85,
+    "pendingProposals": 25,
+    "rejectedProposals": 10
+  },
+  "monthlyPerformance": [
+    { "month": "Jan", "value": 120000 },
+    { "month": "Fev", "value": 140000 },
+    { "month": "Mar", "value": 160000 },
+    { "month": "Abr", "value": 130000 },
+    { "month": "Mai", "value": 150000 },
+    { "month": "Jun", "value": 180000 }
+  ],
+  "recentActivity": [
+    { "id": 1, "time": "2023-05-17T14:30:00", "description": "Proposta #P005 foi criada" },
+    { "id": 2, "time": "2023-05-17T13:15:00", "description": "Proposta #P004 foi aprovada" },
+    { "id": 3, "time": "2023-05-17T11:45:00", "description": "Proposta #P003 foi atualizada" },
+    { "id": 4, "time": "2023-05-17T10:20:00", "description": "Proposta #P002 foi enviada para análise" },
+    { "id": 5, "time": "2023-05-17T09:05:00", "description": "Proposta #P001 foi aprovada" }
+  ]
+}

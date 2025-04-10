@@ -1,0 +1,34 @@
+{
+  "responses": {
+    "123.456.789-00": {
+      "name": "João da Silva",
+      "status": "Aprovado",
+      "availableBalance": 25000,
+      "riskScore": "Baixo"
+    },
+    "987.654.321-00": {
+      "name": "Maria Santos",
+      "status": "Aprovado",
+      "availableBalance": 18000,
+      "riskScore": "Médio"
+    },
+    "456.789.123-00": {
+      "name": "Pedro Oliveira",
+      "status": "Reprovado",
+      "availableBalance": 0,
+      "riskScore": "Alto"
+    },
+    "789.123.456-00": {
+      "name": "Ana Costa",
+      "status": "Aprovado",
+      "availableBalance": 30000,
+      "riskScore": "Baixo"
+    },
+    "321.654.987-00": {
+      "name": "Lucas Ferreira",
+      "status": "Aprovado",
+      "availableBalance": 15000,
+      "riskScore": "Médio"
+    }
+  }
+}
